@@ -1,0 +1,30 @@
+# Ignorar o diretório do ambiente virtual
+venv/
+.env/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar arquivos temporários de sistemas operacionais
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Ignorar arquivos específicos do PyCharm
+.idea/
+
+# Ignorar arquivos específicos do VSCode
+.vscode/
+
+# Ignorar arquivos de logs ou de backup
+*.log
+*.bak
+
+# Ignorar arquivos gerados pelo PyInstaller (se você usar)
+dist/
+build/
+*.spec
+
+# Ignorar o arquivo de configuração do Tkinter (caso exista)
+*.ini
